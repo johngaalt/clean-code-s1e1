@@ -16,12 +16,11 @@ body {
   width: 100%;
 }
 
-.header .more_inf {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-
 
 .header {
   text-align: center;
@@ -34,13 +33,13 @@ body {
   display: block;
 }
 
-.task {
+.wrapper__input {
   display: inline-block;
   flex-grow: 1;
   width: 56%;
 }
 
-.task-row-wrapper {
+.wrapper {
   display: flex;
 }
 
@@ -50,16 +49,16 @@ ul {
 }
 
 li,
-h3 {
+.title {
   list-style: none;
 }
 
 input,
-button {
+.button {
   outline: none;
 }
 
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -69,13 +68,13 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3A3a;
 }
 
 /* Heading */
 
-h3,
+.title,
 label[for='new-task'] {
   color: #333;
   font-weight: 700;
