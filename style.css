@@ -136,6 +136,7 @@ button {
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  flex-grow: 1;
 }
 
 .list__item > .input__text {
